@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4ec3c9;
+}
+#container{
+    height: 400px;
+    width: 350px;
+    background-color: #d85454;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+#container img{
+    height: 100%;
+    width: 100%;
+  object-fit: cover;
+  object-position: center;
+
+}
+#container i{
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+}
+#container i:hover{
+    color: #000;
+}
+#container #LikeHeart{
+    color: #fff;
+    font-size: 75px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0.8;
+    transition: all ease 0.4s;
+}
+/* #LikeHeart{
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */

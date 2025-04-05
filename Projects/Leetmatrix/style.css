@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(209, 193, 164);
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.user-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+
+.user-input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#user-input {
+    width: 80%;
+    padding: 0.3rem;
+}
+
+#search-btn {
+    background-color: blueviolet;
+    padding: 0.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(#498449 var(--progress-degree, 0%), #192619 0%);
+    border: 3px solid lime;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+}
+
+.progress {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.stats-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.stats-cards{
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+
+}
+.card{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(18, 7, 7, 0.2);
+}
